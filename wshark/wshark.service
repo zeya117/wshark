@@ -1,0 +1,14 @@
+[Unit]
+Description=wireshark
+After=network.target
+
+[Service]
+Type=forking
+User=pi
+Group=pi
+ExecStart=/home/pi/start.sh start
+Restart=always 
+RunTimeMaxSec=604800
+
+[Install]
+WantedBy=multi-user.target

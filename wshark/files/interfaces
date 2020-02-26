@@ -1,0 +1,10 @@
+allow-hotplug eth0
+iface eth0 inet dhcp
+
+iface eth0 inet6 auto
+  request_prefix 1
+  dhcp 1
+
+#  pre-up ifconfig br0 up
+#  pre-up echo 0 > /proc/sys/net/ipv6/conf/eth0/accept_dad
+

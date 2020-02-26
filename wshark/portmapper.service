@@ -1,0 +1,12 @@
+[Unit]
+Description=balancer
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/home/pi/balance.sh start
+Restart=always 
+RunTimeMaxSec=604800
+
+[Install]
+WantedBy=multi-user.target
