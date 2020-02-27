@@ -32,7 +32,7 @@ sudo apt-get update
 
 echo "* Firewallregeln vorbereiten, Module laden" | tee -a $LOG
 #Erlaubt Verbindungen aus genannten Netz zu Port 9000
-sudo iptables -A INPUT -p tcp --dport 9000 -s 134.108.0.0/17 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 9000 -s x.x.x.x/x -j ACCEPT
 #Erlaubt Verbindungen von localhost
 iptables -A INPUT -s localhost -j ACCEPT
 #Droppt restliche Pakete
