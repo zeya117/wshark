@@ -57,7 +57,7 @@ cd libgtk+3.0-3.24.5
 ```
 Nun muessen die Patches noch angewendet werden.
 ``` 
-patch -p1 < ../Wireshark-GTK-Uebungsumgebung/GTK/ct_raspion_gtk+3.0-3.24.5.patch
+sudo patch -p1 < ../Wireshark-GTK-Uebungsumgebung/GTK/ct_raspion_gtk+3.0-3.24.5.patch
 ```
 Anschliessend wird der Uebersetzungs- und Bauvorgang gestartet mit:
 ``` 
