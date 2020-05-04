@@ -1,7 +1,7 @@
 # Wireshark-GTK-Uebungsumgebung
 Dieses Programm dient zum Ueben des Umgangs mit Wireshark auf einer **x86** Umgebung. 
 Wireshark(-gtk) wird hierbei ueber Broadwayd im Webbrowser angezeigt. 
-Dabei werden abhaengig vom start.sh Skript, welches ueber den HSESpion.service ausgerufen wird, 16 * x Wireshark
+Dabei werden abhaengig vom start.sh Skript, welches ueber den HSESpion.service aufgerufen wird, 16 * x Wireshark
 Instanzen gestartet.
 
 **Systemanforderungen:**
